@@ -1,0 +1,77 @@
+\documentclass[centered, overlapped]{res} %res.cls is needed to typeset
+\newsectionwidth{0pt}  %Don't indent the section bodys
+\setlength{\headsep}{14pt}  
+\topmargin=-.4in %Move the page up for centering
+
+\begin{document}
+\name{William Breidenthal\\[12pt]}
+                    
+\address{{ 2030 Via Tiempo, Cardiff, CA 92007 - (760) 815-8672 - willhb@gmail.com }}
+
+\begin{resume} 
+
+\section{{EDUCATION}} 
+\vspace{4pt} 
+{\sl Bachelor of Science}, Electrical Engineering \hfill June 2012\\
+University of California San Diego,   GPA 3.14 
+
+{\sl Relevant Coursework:} Microwave Systems and Circuits, Analog Integrated Circuits, Semiconductor Physics, Linear Electronic Systems, Data Networks, and Computer Interfacing.
+
+\section{{TECHNICAL SKILLS}}
+\vspace{18pt}
+\begin{itemize} \itemsep -2pt 
+ 	\item Design and simulation of circuits using PSPICE, LTspice, Cadence Virtuoso, and Agilent ADS.
+ 	\item Programming in C, Assembly, MATLAB, Verilog, PHP, and Javascript.
+	 \item Develop embedded applications  for Atmel AVR, ARM Cortex-M3, and ARM7-TDMI. 
+	 \item Verilog FPGA development using Xilinx ISE WebPACK and Altera Quartus II.
+	 \item Troubleshooting and prototyping utilizing tools including oscilloscopes, multimeters, logic analyzers, function generators, frequency counters, DC power supplies, and network analyzers. 
+	 \item Schematic capture and board-level layout of analog and digital circuits using Cadsoft EAGLE.
+ \end{itemize}
+
+\section{{PROJECT EXPERIENCE}}
+\vspace{4pt}
+{\sl ViaCar - Senior Design Project} \hfill October 2009 - June 2012\\
+Project Team Lead - Hardware Engineer \hfill UCSD, La Jolla, CA
+
+\begin{itemize} \itemsep -2pt
+	\item Coordinated a team of 3 to produce a competitive 1/10th scale autonomous vehicle.
+	\item Designed active analog multi-order Sallen-Key bandpass and lowpass filters.
+	\item Fabricated multiple mixed signal PCBs for signal filtering, interfacing, and DC motor control.
+	\item Wrote embedded control algorithms in C for Atmel AVR and ARM Cortex-M3 microcontrollers.
+	\item Participated in autonomous robotics competitions at UC San Diego and UC Davis.
+\end{itemize}
+
+{\sl Micromouse} \hfill September 2011 - May 2012 \\
+Project Lead  - Hardware and Software Engineer \hfill UCSD, La Jolla, CA
+
+\begin{itemize} \itemsep -2pt
+	\item Created an autonomous maze solving robotic 'mouse' exclusively from lab stocked parts.
+	\item Designed analog infrared distance sensors, Schmitt triggers, and optical encoders.
+	\item Combined multiple sensor input in a PID controller for navigation and collision avoidance.
+	\item Integrated XBee 802.15.4 for wireless control and debugging.  
+\end{itemize}
+
+\section{{PROFESSIONAL EXPERIENCE}} 
+\vspace{4pt}
+{\sl OpenLPC} \hfill        May 2011 - September 2011 \\
+Hardware Engineer Intern \hfill La Jolla, CA
+  
+ \begin{itemize} \itemsep -2pt 
+ 	\item Produced  development boards based on NXP's LPC1769 and LPC2148 microcontrollers.
+ 	\item Integrated analog audio, USB, and Ethernet PHY ICs on multi-layer printed circuit boards. 
+ 	\item Assembled, programmed, debugged, reworked, and verified over 200 circuit boards. 
+ 	\item Assisted in customer support of the development boards. 
+ \end{itemize}
+ 
+{\sl Leucadia Cyclery} \hfill    January 2004 - Present \\[2pt]
+Web Programmer, Mechanic \hfill Leucadia, CA 
+
+\begin{itemize} \itemsep -2pt
+	\item  Designed and supported the store website written in PHP, HTML, CSS, and Javascript.
+	\item  Maintained, assembled, and modified a variety of new and used bicycles.
+	\item Created and maintained an inventory of bicycle stock and sales.
+	\item Managed store opening and closing, and assisted customers with sales and support.
+\end{itemize}
+
+\end{resume} 
+\end{document}
